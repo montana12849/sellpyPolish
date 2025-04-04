@@ -18,7 +18,7 @@ class SomeClass {
   
     countItems() {
         this.counter += 1;
-        if(this.number <= 99) {
+        if(this.number < this.data.length - 1) {
             this.number += 1;
         } else {
             this.number = 0;
@@ -59,4 +59,5 @@ class SomeClass {
   const myObject = new SomeClass();
   myObject.fetchData('first');
   myObject.register();
+ 
  
