@@ -207,7 +207,7 @@ __________________________________________________________________________
         let text = `${this.counter} | ${this.time} | ${this.data[this.number].pl} - ${this.data[this.number].ru}`;
         let elem = document.createElement('div');
 
-        elem.style.cssText = "height: 10px; background: transparent; position: absolute; bottom: 10px; left: 10px; font-size: 12px;"
+        elem.style.cssText = "height: 10px; background: transparent; position: absolute; bottom: 10px; left: 10px; font-size: 12px; color: #616362"
         elem.innerHTML = text;
         elem.id = 'absolute';
         document.body.append(elem);
